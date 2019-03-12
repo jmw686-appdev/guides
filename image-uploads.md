@@ -32,7 +32,7 @@ If not, you have to add it. For example, here we add a column called "avatar" to
 
 ```bash
 rails generate migration add_avatar_to_users avatar:string
-rake db:migrate
+rails db:migrate
 ```
 
 In your case, it may be song, transcript, image, etc.
